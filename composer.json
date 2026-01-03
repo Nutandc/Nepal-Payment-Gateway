@@ -1,0 +1,67 @@
+{
+    "name": "nutandc/nepal-payment-gateway",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "Nepal payment gateway integration for Laravel: eSewa, Khalti, ConnectIPS, optional Stripe, idempotent and secure.",
+    "license": "MIT",
+    "homepage": "https://github.com/Nutandc/nepal-payment-gateway",
+    "keywords": [
+        "Nepal",
+        "Payment",
+        "Gateway",
+        "eSewa",
+        "Khalti",
+        "ConnectIPS",
+        "Stripe",
+        "Laravel"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nutandc\\NepalPaymentSuite\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nutan Dahal",
+            "email": "info@dahalnutan.com.np"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "illuminate/http": "^10.0|^11.0",
+        "illuminate/support": "^10.0|^11.0"
+    },
+    "suggest": {
+        "stripe/stripe-php": "Required for Stripe gateway when enabled."
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "friendsofphp/php-cs-fixer": "^3.92",
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpstan/phpstan": "^1.11",
+        "phpstan/phpstan-phpunit": "^1.4",
+        "stripe/stripe-php": "^15.0"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse --configuration=phpstan.neon",
+        "fix": "php-cs-fixer fix",
+        "fix:dry": "php-cs-fixer fix --dry-run --diff"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nutandc\\NepalPaymentSuite\\Providers\\NepalPaymentSuiteServiceProvider"
+            ]
+        }
+    }
+}
