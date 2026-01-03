@@ -1,10 +1,10 @@
 Nepal Payment Gateway
 =====================
 
-[![CI](https://github.com/Nutandc/nepal-payment-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/Nutandc/nepal-payment-gateway/actions/workflows/ci.yml)
-[![Latest Version](https://img.shields.io/packagist/v/nutandc/nepal-payment-gateway)](https://packagist.org/packages/nutandc/nepal-payment-gateway)
-[![Total Downloads](https://img.shields.io/packagist/dt/nutandc/nepal-payment-gateway)](https://packagist.org/packages/nutandc/nepal-payment-gateway)
-[![License](https://img.shields.io/github/license/Nutandc/nepal-payment-gateway)](LICENSE)
+[![CI](https://github.com/Nutandc/Nepal-Payment-Gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/Nutandc/Nepal-Payment-Gateway/actions/workflows/ci.yml)
+[![Latest Version](https://poser.pugx.org/nutandc/nepal-payment-gateway/version)](https://packagist.org/packages/nutandc/nepal-payment-gateway)
+[![Total Downloads](https://poser.pugx.org/nutandc/nepal-payment-gateway/d/total)](https://packagist.org/packages/nutandc/nepal-payment-gateway)
+[![License](https://poser.pugx.org/nutandc/nepal-payment-gateway/license)](LICENSE)
 
 Laravel-first payment gateway package for Nepal gateways with optional Stripe support. Built for PHP 8.2+ and Laravel 10+ with clean, typed, and configurable services.
 
