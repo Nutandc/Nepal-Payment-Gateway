@@ -29,7 +29,7 @@ Gateway flags
 Requirements
 ------------
 - PHP 8.2+
-- Laravel 10+
+- Laravel 10/11/12
 - Extensions: `ext-curl`, `ext-openssl`
 
 Installation
