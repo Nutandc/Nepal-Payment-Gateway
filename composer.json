@@ -1,6 +1,5 @@
 {
     "name": "nutandc/nepal-payment-gateway",
-    "version": "1.0.0",
     "type": "library",
     "description": "Nepal payment gateway integration for Laravel: eSewa, Khalti, ConnectIPS, optional Stripe, idempotent and secure.",
     "license": "MIT",
